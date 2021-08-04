@@ -1,0 +1,44 @@
+body{
+    font-family:'Space Mono', monospace;
+    padding:0;
+    margin:0;
+}
+
+.maincontent{
+    height: 100%;
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    align-items: center;
+   
+}
+.logo{
+    margin-top:.6rem;
+    margin-bottom:.6rem;
+    flex:1;
+}
+
+.content{
+    width: 100%;
+    border-radius: 2rem;
+    background-color: rgb(223, 240, 240);
+    display:flex;
+    flex-direction: column;
+}
+
+.inputText{
+    border: solid red;
+    
+ }
+.inputText input{
+   width; 
+   border: solid red;
+   margin:.9rem;
+   padding:.5rem;
+}
+
+.inputText p{
+    font-size: .9rem;
+    font-weight: 900;
+
+ }
